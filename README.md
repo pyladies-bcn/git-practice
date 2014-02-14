@@ -9,11 +9,11 @@ This is a playground, so you're free to play around with it: fork, clone, commit
 Git Exercise Example:
 ----
 
--Fork the repository
--Clone
--Create a branch
--Add files or modify files and add your name to the Contributors list
--Check differences
--Commit the changes
--Push it the repository
--Pull request to the master branch in pyladies-bcn organization
+- Fork the repository
+- Clone
+- Create a branch
+- Add files or modify files and add your name to the Contributors list
+- Check differences
+- Commit the changes
+- Push it the repository
+- Pull request to the master branch in pyladies-bcn organization
