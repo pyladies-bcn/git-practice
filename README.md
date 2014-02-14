@@ -11,6 +11,7 @@ Git Exercise Example:
 
 - Fork the repository
 - Clone
+- cd to cloned directory
 - Create a branch
 - Add files or modify files and add your name to the Contributors list
 - Check differences
