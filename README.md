@@ -57,6 +57,49 @@ Example: Add your name to the list and save the document.
 
 ### 5. Check differences
 
+If you do `git status` you can see that the Contributors.md file has been modified but not committed yet.
 
+	$ git status
+	# On branch mybranch
+	# Changes not staged for commit:
+	#   (use "git add <file>..." to update what will be committed)
+	#   (use "git checkout -- <file>..." to discard changes in working directory)
+	#
+	#	modified:   Contributors.md
+	#
+	no changes added to commit (use "git add" and/or "git commit -a")
 
-Create a branch
+You can also do `git diff` to see the difference between documents.
+
+	$ git diff
+
+### 6. Commit the changes
+
+First you'll have to add the changes with:
+
+	$ git add Contributors.md
+
+If you do `git status` now, you'll see the following:
+	
+	$ git status
+	# On branch mybranch
+	# Changes to be committed:
+	# (use "git reset HEAD <file>..." to unstage)
+	#
+	# modified:   README.md
+
+And then commit the changes
+
+	$ git commit -m "Your message for the commit"
+
+### 7. Push it the repository
+
+To push it back to your repository:
+
+	$ git push origin mybranch
+
+### 8. Pull request
+
+To merge your changes into the pyladies-bcn git-practice. Check the info on github on [Pull requests](https://help.github.com/articles/using-pull-requests).
+
+Or just go to your repo and you should see a green button saying `Merge and pull request`
