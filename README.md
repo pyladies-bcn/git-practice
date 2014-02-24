@@ -102,4 +102,4 @@ To push it back to your repository:
 
 To merge your changes into the pyladies-bcn git-practice. Check the info on github on [Pull requests](https://help.github.com/articles/using-pull-requests).
 
-Or just go to your repo and you should see a green button saying `Merge and pull request`
+Or just go to your repo and you should see a green button saying `Compare and pull request`
