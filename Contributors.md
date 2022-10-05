@@ -8,6 +8,7 @@ Laura Pérez
 Joana Figueira
 Mila Gerova
 Maria Noguera
+Kyla Juett
 Oly ZInk
 Marc Maycas
 Eli Ortega
